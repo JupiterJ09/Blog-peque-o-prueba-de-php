@@ -6,7 +6,7 @@
                 <a href="#">Volver arriba</a>
             </p>
 
-            <p class="mb-0 text-white">Desarrollado por:<a href=""> lubutech</a></p>
+            <p class="mb-0 text-white">Anibal Cabrera:<a href=""> Proyecto realizado como prueba</a></p>
         </div>
     </footer>
 
@@ -30,7 +30,7 @@
     <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
 
     <script>
-CKEDITOR.replace('texto');
+CKEDITOR.replace('Informacion Relevante');
     </script>
 
     </body>
