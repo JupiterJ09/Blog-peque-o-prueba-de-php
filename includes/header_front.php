@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Blog PHP 8</a>
+            <a class="navbar-brand" href="<?php echo RUTA_FRONT; ?>">Blog PHP 8</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,10 +47,10 @@
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="admin/articulos.php">Artículos</a>
+                                <a class="dropdown-item" href="<?php echo RUTA_ADMIN; ?>articulos.php">Artículos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="admin/comentarios.php">Comentarios</a>
+                                <a class="dropdown-item" href="<?php echo RUTA_ADMIN; ?>comentarios.php">Comentarios</a>
                             </li>
                         </ul>
 
@@ -59,21 +59,21 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="admin/usuarios.php">Usuarios</a>
+                        <a class="nav-link" href="<?php echo RUTA_ADMIN; ?>usuarios.php">Usuarios</a>
                     </li>
 
                 </ul>
 
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Inicio</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>index.php">Inicio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="registro.php">Registrarse</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>registro.php">Registrarse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acceder.php">Acceder</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>acceder.php">Acceder</a>
                     </li>
 
 
@@ -82,7 +82,7 @@
                         <p class="text-white mt-2"><i class="bi bi-person-circle"></i> </p>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="salir.php">Salir</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>salir.php">Salir</a>
                     </li>
 
                 </ul>

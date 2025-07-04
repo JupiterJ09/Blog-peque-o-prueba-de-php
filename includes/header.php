@@ -48,10 +48,10 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="<?php echo RUTA_ADMIN; ?>">Artículos</a>
+                                <a class="dropdown-item" href="<?php echo RUTA_ADMIN; ?>articulos.php">Artículos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="comentarios.php">Comentarios</a>
+                                <a class="dropdown-item" href="<?php echo RUTA_ADMIN; ?>comentarios.php">Comentarios</a>
                             </li>
                         </ul>
                     </li>
@@ -59,21 +59,21 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="usuarios.php">Usuarios</a>
+                        <a class="nav-link" href="<?php echo RUTA_ADMIN; ?>usuarios.php">Usuarios</a>
                     </li>
 
                 </ul>
 
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.php">Inicio</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>">Inicio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../registro.php">Registrarse</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>registro.php">Registrarse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../acceder.php">Acceder</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>acceder.php">Acceder</a>
                     </li>
 
 
@@ -81,7 +81,7 @@
                         <p class="text-white mt-2"><i class="bi bi-person-circle"></i></p>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../salir.php">Salir</a>
+                        <a class="nav-link" href="<?php echo RUTA_FRONT; ?>salir.php">Salir</a>
                     </li>
 
                 </ul>

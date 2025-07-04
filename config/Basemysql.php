@@ -4,7 +4,7 @@
 
     //Parámetros base de datos
     private $host = 'localhost';
-    private $db_name = 'blog';
+    private $db_name = 'blog2';
     private $username = 'root';
     private $password = '';
     private $conn;
